@@ -1,16 +1,23 @@
 import 'package:flutter/material.dart';
-import 'article.dart';
+import 'homepage.dart';
 
-class NewsApp extends StatefulWidget {
+void main() => runApp(VoiceNews());
+
+class VoiceNews extends StatefulWidget {
   @override
-  _NewsAppState createState() => _NewsAppState();
+  _VoiceNewsState createState() => _VoiceNewsState();
 }
 
-class _NewsAppState extends State<NewsApp> {
+class _VoiceNewsState extends State<VoiceNews> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'voicenews',
+      theme: ThemeData(
+        primarySwatch: Colors.grey
+      ),
+      home: HomePage()
     );
   }
 }
