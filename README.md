@@ -1,6 +1,7 @@
 # listentonews
 
-A new Flutter project.
+A new Flutter News App Powered By NewsApi.org and Google Cloud Text-To-Speech Api So That You Can Never Miss The Latest Updates
+Listen To News On The Go.
 
 ## Getting Started
 
